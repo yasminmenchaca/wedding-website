@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@400;700&display=swap');
+
 body {
     background-color: black;
+    font-family: 'Piazzolla', serif;
+}
+
+.container {
+    padding-top: 90px;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.nav-link{
+    font-size: 1.25rem;
 }
