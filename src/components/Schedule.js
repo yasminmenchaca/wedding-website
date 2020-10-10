@@ -1,6 +1,8 @@
 import React from 'react';
 import * as ReactBootStrap from "react-bootstrap";
-import poster from "../img/poster.jpg";
+
+import couple from '../img/couple.png';
+import cover from "../img/cover.png";
 
 const Schedule = () => {
     return (
@@ -10,7 +12,8 @@ const Schedule = () => {
             <ReactBootStrap.Row>
                 <ReactBootStrap.Col sm={6} className='align-self-center'>
                     <ReactBootStrap.ResponsiveEmbed aspectRatio="16by9">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/sPSJYXi7BWA" frameBorder="0"
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/sPSJYXi7BWA"
+                                frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen/>
                     </ReactBootStrap.ResponsiveEmbed>
@@ -19,6 +22,7 @@ const Schedule = () => {
                     <h5>2:00 PM - 6:00 PM</h5><br/><br/>
                 </ReactBootStrap.Col>
                 <ReactBootStrap.Col sm={6} className='align-self-center'>
+                    <ReactBootStrap.Image src={couple} style={{height:'100px'}}/>
                     <h5>Alamo Drafthouse Cinema Stone Oak <br/>
                         22806 U.S. 281 <br/>
                         San Antonio, TX 78258<br/><br/>
@@ -26,7 +30,8 @@ const Schedule = () => {
                         slacks. <br/><br/>
                         Dinner and a viewing of "The Disaster Artist" will follow after the ceremony.</h5>
                     <br/>
-                    <ReactBootStrap.Button>Map</ReactBootStrap.Button>
+                    <a href="https://goo.gl/maps/Z2Byumo8oXfZYqDj6" className="btn btn-info btn-lg" role="button">Map</a>
+                    <br/>
                 </ReactBootStrap.Col>
             </ReactBootStrap.Row>
         </ReactBootStrap.Container>
