@@ -1,16 +1,12 @@
 import React from 'react';
-import TwitchEmbed from 'react-twitch-embed';
+import * as ReactBootStrap from "react-bootstrap";
+import ReactTwitchEmbedVideo from "react-twitch-embed-video"
 
 const Watch = () => {
     return (
-
-        <TwitchEmbed
-            channel="yasminismean"
-            id="yasminismean"
-            theme="dark"
-            muted
-            onVideoPause={() => console.log(':(')}
-        />
+        <ReactBootStrap.ResponsiveEmbed aspectRatio="16by9">
+            <ReactTwitchEmbedVideo channel="yasminismean" layout="video"/>
+        </ReactBootStrap.ResponsiveEmbed>
 
     );
 }
