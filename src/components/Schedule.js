@@ -2,7 +2,6 @@ import React from 'react';
 import * as ReactBootStrap from "react-bootstrap";
 
 import couple from '../img/couple.png';
-import cover from "../img/cover.png";
 
 const Schedule = () => {
     return (
@@ -13,7 +12,6 @@ const Schedule = () => {
                 <ReactBootStrap.Col sm={6} className='align-self-center'>
                     <ReactBootStrap.ResponsiveEmbed aspectRatio="16by9">
                         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/sPSJYXi7BWA"
-                                frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen/>
                     </ReactBootStrap.ResponsiveEmbed>
