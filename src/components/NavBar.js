@@ -15,9 +15,9 @@ const NavBar = () => {
                         <ReactBootStrap.Nav.Link href="/">Home</ReactBootStrap.Nav.Link>
                     </Link>
 
-                    <Link to="/registry" style={{ textDecoration: 'none' }}>
-                        <ReactBootStrap.Nav.Link href="/registry">Registry</ReactBootStrap.Nav.Link>
-                    </Link>
+                    {/*<Link to="/registry" style={{ textDecoration: 'none' }}>*/}
+                    {/*    <ReactBootStrap.Nav.Link href="/registry">Registry</ReactBootStrap.Nav.Link>*/}
+                    {/*</Link>*/}
 
                     <Link to="/schedule" style={{ textDecoration: 'none' }}>
                         <ReactBootStrap.Nav.Link href="/schedule">Schedule</ReactBootStrap.Nav.Link>
@@ -27,13 +27,14 @@ const NavBar = () => {
                         <ReactBootStrap.Nav.Link href="/rsvp">RSVP</ReactBootStrap.Nav.Link>
                     </Link>
 
-                    <Link to="/faqs" style={{ textDecoration: 'none' }}>
-                        <ReactBootStrap.Nav.Link href="/faqs">FAQs</ReactBootStrap.Nav.Link>
-                    </Link>
+                    {/*<Link to="/faqs" style={{ textDecoration: 'none' }}>*/}
+                    {/*    <ReactBootStrap.Nav.Link href="/faqs">FAQs</ReactBootStrap.Nav.Link>*/}
+                    {/*</Link>*/}
 
                     <Link to="/watch" style={{ textDecoration: 'none' }}>
                         <ReactBootStrap.Nav.Link href="/watch">Watch Online</ReactBootStrap.Nav.Link>
                     </Link>
+
                 </ReactBootStrap.Nav>
             </ReactBootStrap.Navbar.Collapse>
         </ReactBootStrap.Navbar>
