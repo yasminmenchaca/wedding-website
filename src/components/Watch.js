@@ -7,6 +7,7 @@ const Watch = () => {
         <ReactBootStrap.Container fluid
                                   className='text-center'
                                   style={{backgroundColor: 'white', padding: '10px'}}>
+            <h1 style={{fontWeight: 'bold'}}>Watch Online</h1> <hr style={{border: '1px solid black'}}/>
             <ReactBootStrap.ResponsiveEmbed aspectRatio="16by9" className='d-none d-md-block'>
                 <ReactTwitchEmbedVideo channel="yasminismean" layout="video"/>
             </ReactBootStrap.ResponsiveEmbed>
