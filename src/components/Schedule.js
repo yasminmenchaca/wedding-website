@@ -7,7 +7,7 @@ const Schedule = () => {
     return (
         <ReactBootStrap.Container fluid
                                   className='text-center'
-                                  style={{backgroundColor: 'white', padding: '10px 10px'}}>
+                                  style={{backgroundColor: 'white', padding: '10px'}}>
             <ReactBootStrap.Row>
                 <ReactBootStrap.Col sm={6} className='align-self-center'>
                     <ReactBootStrap.ResponsiveEmbed aspectRatio="16by9">
@@ -20,7 +20,7 @@ const Schedule = () => {
                     <h5>2:00 PM - 6:00 PM CST</h5><br/><br/>
                 </ReactBootStrap.Col>
                 <ReactBootStrap.Col sm={6} className='align-self-center'>
-                    <ReactBootStrap.Image src={couple} style={{height:'100px'}}/>
+                    <ReactBootStrap.Image src={couple} style={{height: '100px'}}/>
                     <h5>Alamo Drafthouse Cinema Stone Oak <br/>
                         22806 U.S. 281 <br/>
                         San Antonio, TX 78258<br/><br/>
@@ -28,7 +28,8 @@ const Schedule = () => {
                         slacks. <br/><br/>
                         Dinner and a viewing of "The Disaster Artist" will follow after the ceremony.</h5>
                     <br/>
-                    <a href="https://goo.gl/maps/Z2Byumo8oXfZYqDj6" className="btn btn-info btn-lg" role="button">Map</a>
+                    <a href="https://goo.gl/maps/Z2Byumo8oXfZYqDj6" className="btn btn-dark btn-lg"
+                       role="button">Map</a>
                     <br/>
                 </ReactBootStrap.Col>
             </ReactBootStrap.Row>
