@@ -4,7 +4,7 @@ class Error extends Component {
     render() {
         return (
             <div>
-                <p>Error: Page does not exist!</p>
+                <h1 style={{color: 'white'}} className='text-center'>Error: Page does not exist!</h1>
             </div>
         );
     }

@@ -5,7 +5,7 @@ import * as ReactBootStrap from "react-bootstrap";
 const NavBar = () => {
     return (
         <ReactBootStrap.Navbar collapseOnSelect expand="xl" variant="light" fixed="top" style={{backgroundColor: 'white'}}>
-            <ReactBootStrap.Navbar.Brand href="/">Lynn & Yasmin</ReactBootStrap.Navbar.Brand>
+            <ReactBootStrap.Navbar.Brand href="/" style={{fontWeight: 'bold'}}>Lynn & Yasmin</ReactBootStrap.Navbar.Brand>
             <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
                 <ReactBootStrap.Nav className="mr-auto">
