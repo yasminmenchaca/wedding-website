@@ -4,10 +4,15 @@ import ReactTwitchEmbedVideo from "react-twitch-embed-video"
 
 const Watch = () => {
     return (
-        <ReactBootStrap.ResponsiveEmbed aspectRatio="16by9">
-            <ReactTwitchEmbedVideo channel="yasminismean" layout="video"/>
-        </ReactBootStrap.ResponsiveEmbed>
+        <ReactBootStrap.Container fluid
+                                  className='text-center'
+                                  style={{backgroundColor: 'white', padding: '10px'}}>
+            <ReactBootStrap.ResponsiveEmbed aspectRatio="16by9" className='d-none d-md-block'>
+                <ReactTwitchEmbedVideo channel="yasminismean" layout="video"/>
+            </ReactBootStrap.ResponsiveEmbed>
 
+            <a href="https://www.twitch.tv/yasminismean" className="btn btn-dark btn-lg btn-block d-md-none" role="button">Click Here to Watch Online</a>
+        </ReactBootStrap.Container>
     );
 }
 
