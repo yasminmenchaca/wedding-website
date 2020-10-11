@@ -7,7 +7,7 @@ const Schedule = () => {
     return (
         <ReactBootStrap.Container fluid
                                   className='text-center'
-                                  style={{backgroundColor: 'white', padding: '50px 50px'}}>
+                                  style={{backgroundColor: 'white', padding: '10px 10px'}}>
             <ReactBootStrap.Row>
                 <ReactBootStrap.Col sm={6} className='align-self-center'>
                     <ReactBootStrap.ResponsiveEmbed aspectRatio="16by9">
@@ -15,9 +15,9 @@ const Schedule = () => {
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen/>
                     </ReactBootStrap.ResponsiveEmbed>
-                    <h1 style={{fontWeight: 'bold'}}>CEREMONY, DINNER AND A MOVIE</h1><br/>
+                    <h1 style={{fontWeight: 'bold'}}>CEREMONY, DINNER, AND A MOVIE</h1><br/>
                     <h5>SUNDAY, JANUARY 17, 2021</h5>
-                    <h5>2:00 PM - 6:00 PM</h5><br/><br/>
+                    <h5>2:00 PM - 6:00 PM CST</h5><br/><br/>
                 </ReactBootStrap.Col>
                 <ReactBootStrap.Col sm={6} className='align-self-center'>
                     <ReactBootStrap.Image src={couple} style={{height:'100px'}}/>
