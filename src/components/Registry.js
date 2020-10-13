@@ -10,7 +10,7 @@ const Registry = () => {
             <hr style={{border: '1px solid black'}}/>
             <h5>We've recently been asked for gift suggestions by friends and family. Please know that your presence on
                 the day is more than enough, but for those who have expressed an interest, we've listed the charities
-                below that are closest to our hearts. A contribution would be most appreciated in lieu of a gift.</h5>
+                below that are closest to our hearts. A contribution would be most appreciated in lieu of a gift. Click on their pictures to donate.</h5>
             <br/>
 
             <ReactBootStrap.Row>
