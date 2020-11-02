@@ -11,10 +11,10 @@ const Rsvp = () => {
         <h1 style={{fontWeight: 'bold'}}>RSVP</h1> <hr style={{border: '1px solid black'}}/>
         <h2>Coming Soon</h2>
         {/*<iframe*/}
-        {/*    src="https://docs.google.com/forms/d/e/1FAIpQLSekVYwSvcaDqne8DWcA6cBirkj2EHvCROGcssnnvrPKUvA9lA/viewform?embedded=true"*/}
+        {/*    src="https://docs.google.com/forms/d/e/1FAIpQLSd4m2Pz1dE1dH4q8g0rH0gTIDcD8Bu68D8KiYAUy3I8MAr99g/viewform?embedded=true"*/}
         {/*    style={{backgroundColor: "white"}}*/}
         {/*    width="100%"*/}
-        {/*    height="3000px"*/}
+        {/*    height="1310px"*/}
         {/*    frameBorder="0"*/}
         {/*    marginHeight="0"*/}
         {/*    marginWidth="0">*/}
