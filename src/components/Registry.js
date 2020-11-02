@@ -1,6 +1,8 @@
 import React from 'react';
 import * as ReactBootStrap from "react-bootstrap";
 
+import foodBank from './../img/foodbank.png';
+
 const Registry = () => {
     return (
         <ReactBootStrap.Container fluid
@@ -9,33 +11,37 @@ const Registry = () => {
             <h1 style={{fontWeight: 'bold'}}>Registry</h1>
             <hr style={{border: '1px solid black'}}/>
             <h5>We've recently been asked for gift suggestions by friends and family. Please know that your presence on
-                the day is more than enough, but for those who have expressed an interest, we've listed the charities
-                below that are closest to our hearts. A contribution would be most appreciated in lieu of a gift. Click on their pictures to donate.</h5>
+                the day is more than enough. For those who have expressed an interest, we've listed the charities
+                below that are closest to our hearts. A contribution would be most appreciated in lieu of a gift.
+            </h5>
             <br/>
 
             <ReactBootStrap.Row>
+
                 <ReactBootStrap.Col sm>
                     <ReactBootStrap.Card>
-                        <ReactBootStrap.Card.Img variant="bottom" src="https://via.placeholder.com/500" />
-                    </ReactBootStrap.Card><br />
+                        <a href="https://www.honeyfund.com/wedding/powell-menchaca-01-17-2021">
+                            <ReactBootStrap.Card.Img variant="bottom" src={foodBank}/>
+                        </a>
+                    </ReactBootStrap.Card><br/>
                 </ReactBootStrap.Col>
 
                 <ReactBootStrap.Col sm>
                     <ReactBootStrap.Card>
-                        <ReactBootStrap.Card.Img variant="bottom" src="https://via.placeholder.com/500" />
-                    </ReactBootStrap.Card><br />
+                        <ReactBootStrap.Card.Img variant="bottom" src="https://via.placeholder.com/500"/>
+                    </ReactBootStrap.Card><br/>
                 </ReactBootStrap.Col>
 
                 <ReactBootStrap.Col sm>
                     <ReactBootStrap.Card>
-                        <ReactBootStrap.Card.Img variant="bottom" src="https://via.placeholder.com/500" />
-                    </ReactBootStrap.Card><br />
+                        <ReactBootStrap.Card.Img variant="bottom" src="https://via.placeholder.com/500"/>
+                    </ReactBootStrap.Card><br/>
                 </ReactBootStrap.Col>
 
                 <ReactBootStrap.Col sm>
                     <ReactBootStrap.Card>
-                        <ReactBootStrap.Card.Img variant="bottom" src="https://via.placeholder.com/500" />
-                    </ReactBootStrap.Card><br />
+                        <ReactBootStrap.Card.Img variant="bottom" src="https://via.placeholder.com/500"/>
+                    </ReactBootStrap.Card><br/>
                 </ReactBootStrap.Col>
 
 
