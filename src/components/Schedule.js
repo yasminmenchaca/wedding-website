@@ -30,7 +30,7 @@ const Schedule = () => {
                         Dinner and a viewing of "The Disaster Artist" will follow after the ceremony.</h5>
                     <br/>
                     <a href="https://goo.gl/maps/Z2Byumo8oXfZYqDj6" className="btn btn-dark btn-lg"
-                       role="button" target="_blank">Map</a>
+                       role="button">Map</a>
                     <br/>
                 </ReactBootStrap.Col>
             </ReactBootStrap.Row>
