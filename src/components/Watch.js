@@ -13,7 +13,7 @@ const Watch = () => {
             {/*</ReactBootStrap.ResponsiveEmbed>*/}
 
             {/*<a href="https://www.twitch.tv/yasminismean" className="btn btn-dark btn-lg btn-block d-md-none" target="_blank" role="button">Click Here to Watch Online</a>*/}
-
+            <h5>Our ceremony will start at 2pm CST on January 17, 2021 and can be viewed at the link below.</h5>
             <a href="https://www.twitch.tv/yasminismean" className="btn btn-dark btn-lg" target="_blank" role="button">Click Here to Watch Online</a>
 
         </ReactBootStrap.Container>

@@ -13,7 +13,8 @@ const Home = () => {
                     your health and safety are our top priority. We will have a smaller, more intimate wedding
                     consisting of close friends and family members.
                     We have reached out to those who are able to join us.<br/><br/>
-                Our ceremony will be live-streamed <a href="https://www.twitch.tv/yasminismean">here.</a></h5>
+                    We hope you'll tune in virtually as we say "I Do!"<br/>
+                    Details for the livestream can be found <a href="/watch">here.</a></h5>
             </div>
             <div className='text-center' style={{color: 'white', padding: '30px 30px'}}>
                 <h1 style={{fontWeight: 'bold'}} className='date'>JANUARY 17, 2021</h1>
