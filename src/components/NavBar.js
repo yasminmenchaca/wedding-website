@@ -17,9 +17,9 @@ const NavBar = () => {
                         <ReactBootStrap.Nav.Link href="/">Home</ReactBootStrap.Nav.Link>
                     </Link>
 
-                    {/*<Link to="/registry" style={{textDecoration: 'none'}}>*/}
-                    {/*    <ReactBootStrap.Nav.Link href="/registry">Registry</ReactBootStrap.Nav.Link>*/}
-                    {/*</Link>*/}
+                    <Link to="/registry" style={{textDecoration: 'none'}}>
+                        <ReactBootStrap.Nav.Link href="/registry">Registry</ReactBootStrap.Nav.Link>
+                    </Link>
 
                     <Link to="/schedule" style={{textDecoration: 'none'}}>
                         <ReactBootStrap.Nav.Link href="/schedule">Schedule</ReactBootStrap.Nav.Link>

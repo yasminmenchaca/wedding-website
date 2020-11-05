@@ -3,6 +3,9 @@ import * as ReactBootStrap from "react-bootstrap";
 
 import foodBank from './../img/foodbank.png';
 import casa from './../img/casa.png';
+import arc from './../img/arc.png';
+import boysGirls from './../img/boysandgirls.png';
+
 
 const Registry = () => {
     return (
@@ -21,7 +24,7 @@ const Registry = () => {
 
                 <ReactBootStrap.Col sm>
                     <ReactBootStrap.Card>
-                        <a href="https://www.honeyfund.com/wedding/powell-menchaca-01-17-2021" target='_blank'>
+                        <a href="https://paypal.me/pools/c/8u46oLyfbX" target='_blank'>
                             <ReactBootStrap.Card.Img variant="bottom" src={foodBank}/>
                         </a>
                     </ReactBootStrap.Card><br/>
@@ -29,7 +32,7 @@ const Registry = () => {
 
                 <ReactBootStrap.Col sm>
                     <ReactBootStrap.Card>
-                        <a href="https://www.honeyfund.com/wedding/powell-menchaca-01-17-2021" target='_blank'>
+                        <a href="https://paypal.me/pools/c/8u47soRFWj" target='_blank'>
                             <ReactBootStrap.Card.Img variant="bottom" src={casa}/>
                         </a>
                     </ReactBootStrap.Card><br/>
@@ -37,13 +40,17 @@ const Registry = () => {
 
                 <ReactBootStrap.Col sm>
                     <ReactBootStrap.Card>
-                        <ReactBootStrap.Card.Img variant="bottom" src="https://via.placeholder.com/500"/>
+                        <a href="#" target='_blank'>
+                            <ReactBootStrap.Card.Img variant="bottom" src={arc}/>
+                        </a>
                     </ReactBootStrap.Card><br/>
                 </ReactBootStrap.Col>
 
                 <ReactBootStrap.Col sm>
                     <ReactBootStrap.Card>
-                        <ReactBootStrap.Card.Img variant="bottom" src="https://via.placeholder.com/500"/>
+                        <a href="#" target='_blank'>
+                            <ReactBootStrap.Card.Img variant="bottom" src={boysGirls}/>
+                        </a>
                     </ReactBootStrap.Card><br/>
                 </ReactBootStrap.Col>
 
