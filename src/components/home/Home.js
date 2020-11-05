@@ -12,7 +12,8 @@ const Home = () => {
                 <h5 className='covid'>In light of COVID-19, we wanted to let you know our wedding is going forward as planned. As always,
                     your health and safety are our top priority. We will have a smaller, more intimate wedding
                     consisting of close friends and family members.
-                    We have reached out to those who are able to join us.</h5>
+                    We have reached out to those who are able to join us.<br/><br/>
+                Our ceremony will be live-streamed <a href="https://www.twitch.tv/yasminismean">here.</a></h5>
             </div>
             <div className='text-center' style={{color: 'white', padding: '30px 30px'}}>
                 <h1 style={{fontWeight: 'bold'}} className='date'>JANUARY 17, 2021</h1>
