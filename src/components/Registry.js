@@ -40,7 +40,7 @@ const Registry = () => {
 
                 <ReactBootStrap.Col sm>
                     <ReactBootStrap.Card>
-                        <a href="#" target='_blank'>
+                        <a href="https://paypal.me/pools/c/8u4cirrmtN" target='_blank'>
                             <ReactBootStrap.Card.Img variant="bottom" src={arc}/>
                         </a>
                     </ReactBootStrap.Card><br/>
@@ -48,7 +48,7 @@ const Registry = () => {
 
                 <ReactBootStrap.Col sm>
                     <ReactBootStrap.Card>
-                        <a href="#" target='_blank'>
+                        <a href="https://paypal.me/pools/c/8u4crOLQS5" target='_blank'>
                             <ReactBootStrap.Card.Img variant="bottom" src={boysGirls}/>
                         </a>
                     </ReactBootStrap.Card><br/>
