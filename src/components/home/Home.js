@@ -16,7 +16,7 @@ const Home = () => {
             </div>
             <div className='text-center' style={{color: 'white', padding: '30px 30px'}}>
                 <h1 style={{fontWeight: 'bold'}} className='date'>JANUARY 17, 2021</h1>
-                <h6>SAN ANTONIO, TEXAS</h6>
+                <h5>SAN ANTONIO, TEXAS</h5>
             </div>
         </div>
     );
