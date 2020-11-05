@@ -14,8 +14,8 @@ const Registry = () => {
                                   style={{backgroundColor: 'white', padding: '10px'}}>
             <h1 style={{fontWeight: 'bold'}}>Registry</h1>
             <hr style={{border: '1px solid black'}}/>
-            <h5>We've recently been asked for gift suggestions by friends and family. Please know that your presence on
-                the day is more than enough. For those who have expressed an interest, we've listed the charities
+            <h5>We've been asked for gift suggestions by friends and family. Please know that your presence and well wishes on
+                our day are more than enough. For those who have expressed an interest, we've listed the charities
                 below that are closest to our hearts. A contribution would be most appreciated in lieu of a gift.
             </h5>
             <br/>
