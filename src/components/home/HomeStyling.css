@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    .date {
+        font-size: 28px;
+    }
+
+    .names {
+        font-size: 28px;
+    }
+
+    .covid {
+        font-size: 18px;
+    }
+}
