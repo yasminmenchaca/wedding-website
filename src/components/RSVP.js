@@ -1,10 +1,8 @@
 import React from 'react';
 import * as ReactBootStrap from "react-bootstrap";
-import HttpsRedirect from 'react-https-redirect'
 
 const Rsvp = () => {
     return (
-        <HttpsRedirect>
             <ReactBootStrap.Container fluid
                                       className='text-center'
                                       style={{backgroundColor: 'white', padding: '10px'}}>
@@ -22,7 +20,6 @@ const Rsvp = () => {
                 {/*    Loading...*/}
                 {/*</iframe>*/}
             </ReactBootStrap.Container>
-        </HttpsRedirect>
     );
 }
 
