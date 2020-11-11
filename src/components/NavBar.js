@@ -25,9 +25,9 @@ const NavBar = () => {
                         <ReactBootStrap.Nav.Link href="/schedule">Schedule</ReactBootStrap.Nav.Link>
                     </Link>
 
-                    <Link to="/rsvp" style={{textDecoration: 'none'}}>
-                        <ReactBootStrap.Nav.Link href="/rsvp">RSVP</ReactBootStrap.Nav.Link>
-                    </Link>
+                    {/*<Link to="/rsvp" style={{textDecoration: 'none'}}>*/}
+                    {/*    <ReactBootStrap.Nav.Link href="/rsvp">RSVP</ReactBootStrap.Nav.Link>*/}
+                    {/*</Link>*/}
 
                     <Link to="/watch" style={{ textDecoration: 'none' }}>
                     <ReactBootStrap.Nav.Link href="/watch">Watch
