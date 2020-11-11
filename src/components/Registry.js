@@ -19,7 +19,7 @@ const Registry = () => {
                 <h5>We've been asked for gift suggestions by friends and family. Please know that your presence and well
                     wishes on
                     our day are more than enough. For those who have expressed an interest, we've listed the charities
-                    below that are closest to our hearts. A contribution would be most appreciated in lieu of a gift.
+                    below that are closest to our hearts. <br/><br/>Please click on their image if you would like to donate.
                 </h5>
                 <br/>
 
