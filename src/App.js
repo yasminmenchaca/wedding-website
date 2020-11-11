@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import HttpsRedirect from 'react-https-redirect';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
@@ -15,6 +16,7 @@ import Watch from "./components/Watch";
 class App extends Component {
     render() {
         return (
+            <HttpsRedirect>
             <BrowserRouter>
                 <div>
                     <NavBar/>
@@ -30,6 +32,7 @@ class App extends Component {
                     </div>
                 </div>
             </BrowserRouter>
+            </HttpsRedirect>
         );
     }
 }
