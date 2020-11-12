@@ -11,6 +11,7 @@ import Schedule from './components/Schedule';
 import RSVP from "./components/RSVP";
 import Error from './components/Error';
 import Watch from "./components/Watch";
+import SaveTheDate from "./components/SaveTheDate";
 
 class App extends Component {
     render() {
@@ -25,6 +26,7 @@ class App extends Component {
                             <Route exact path="/registry" component={Registry}/>
                             <Route exact path="/rsvp" component={RSVP}/>
                             <Route exact path="/watch" component={Watch}/>
+                            <Route exact path="/savethedate" component={SaveTheDate}/>
                             <Route exact component={Error}/>
                         </Switch>
                     </div>
